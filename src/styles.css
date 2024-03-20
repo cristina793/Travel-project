@@ -7,6 +7,34 @@ body{
 .container{
 max-width: 1400px;
 margin: 0 auto;}
+.card{
+    background-color: white;
+    margin: 30px 0 ;
+}
+.card-body{
+    padding: 30px;
+}
+.card-footer{
+    margin-bottom: 30px;
+}
+
+.button{
+display: block;
+color: white;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 3;
+text-transform: uppercase;
+padding: 16px;
+background-color: #462CB3;
+text-decoration: none;
+
+    }
+    .image-responsive{
+        max-width: 100%;
+    }
 
 .grid {
     display: grid;
@@ -17,15 +45,26 @@ margin: 0 auto;}
     grid-template-columns: 1fr 1fr;
     grid-gap: 64px;
   }
+  .grid-3-columns{
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+
+  }
   .maternhorn{
     width: 100%;
     padding:20px;
    
    }
   section{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 100px 0;
+  }
+  section.secondary{
+    background-color:#f8f8f8;
+  }
+  .text-center{
+    text-align: center;
   }
 
 header{
@@ -89,6 +128,21 @@ main h3{
     color: #272044;
     margin: 0;
 }
+ main h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color:#272044;
+    margin:0;
+        }
+
+main h5{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+    color:#272044;
+    margin:0;
+        }
 main p{
     font-style: normal;
     font-weight: 400;
@@ -97,6 +151,9 @@ main p{
     color: #272044;
     opacity: 0.7;
 }
+.geneva{
+    margin-top: 60px;}
+
 footer {
     color:white;
     background-image: 
@@ -109,7 +166,7 @@ footer {
     background-size: cover;
     padding: 100px 0;
     width: 100%;
-    font-size: 12px;
+    font-size: 16px;
 
 }
 footer p {
@@ -148,5 +205,5 @@ display: block;
 padding: 0;
 margin: 0 auto;}
 section{padding:30px ;}
-
+.geneva{margin: 0;}
 }
