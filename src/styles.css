@@ -11,15 +11,9 @@ margin: 0 auto;}
     background-color: white;
     margin: 30px 0 ;
 }
-.card-header.grid{grid-gap: 0;
 
-
-}
 .card-body{
     padding: 30px;
-}
-.card-footer{
-    margin-bottom: 30px;
 }
 
 .button{
@@ -38,6 +32,7 @@ text-decoration: none;
     }
     .image-responsive{
         width: 100%;
+        aspect-ratio: 1/1;
     }
 
 .grid {
@@ -155,8 +150,7 @@ main p{
     color: #272044;
     opacity: 0.7;
 }
-.geneva{
-    margin-top: 60px;} 
+
     
 .embed{
     width:100%;
