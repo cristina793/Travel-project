@@ -118,14 +118,14 @@ letter-spacing: 5px;
 color: #272044;
 opacity: 0.3;
 text-transform: uppercase;
-margin: 0;}
+;}
 
 main h3{
     font-weight: 700;
     font-size: 40px;
     line-height: 1.5;
     color: #272044;
-    margin: 0;
+    
 }
  main h4{
     font-weight: 700;
@@ -154,7 +154,7 @@ main p{
     
 .embed{
     width:100%;
-    aspect-ratio: 21/9;}
+    aspect-ratio: 16/9;}
 
 footer {
     color:white;
@@ -210,4 +210,5 @@ padding: 0;
 margin: 0 auto;}
 section{padding:30px;}
 .geneva{margin: 0;}
+
 }
